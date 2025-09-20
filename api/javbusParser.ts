@@ -2,7 +2,7 @@ import bytes from 'bytes';
 import { parse, type HTMLElement } from 'node-html-parser';
 import probe from 'probe-image-size';
 import client, { agent } from './client.js';
-import { JAVBUS } from './constants.js';
+import { JAVBUS, JAVBUS_IMG } from './constants.js';
 import type {
     FilterType,
     GetMoviesQuery,
@@ -314,7 +314,7 @@ export async function getMovieDetail(id: string): Promise<MovieDetail> {
             const { width, height } = await probe(img, {
                 agent,
                 headers: {
-                    Referer: 'https://www.javbus.com/',
+                    Referer: JAVBUS_IMG,
                 },
             });
             imageSize = { width, height };
