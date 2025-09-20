@@ -1,5 +1,5 @@
 export const JAVBUS = 'https://www.javbus.com/ja';
-export const JAVBUS_IMG = 'https://www.buscdn.cyou';
+export const JAVBUS_IMG = 'https://www.javbus.com';
 
 /* 爬取页面超时时间 */
 export const JAVBUS_TIMEOUT = 5000;
