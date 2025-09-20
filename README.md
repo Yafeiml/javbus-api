@@ -236,7 +236,7 @@ _关于 PM2 的详细使用方法，请参考 [PM2 官方文档](https://pm2.key
 
 点击下方按钮，即可将本项目一键部署到 Vercel 上
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fovnrain%2Fjavbus-api&project-name=javbus-api&repository-name=javbus-api-from-ovnrain)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYafeiml%2Fjavbus-api&project-name=javbus-api&repository-name=javbus-api-from-yafeiml)
 
 > **Note**
 >
